@@ -1,0 +1,226 @@
+/* This are the common styles includes common tags and classes */
+
+body {
+    font-family: 'Inter', sans-serif;
+    /* Google fonts is assinged here*/
+    margin: 0px;
+    /*Whole body margin is set to zero*/
+}
+
+ul>li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px 0px;
+    font-weight: 700;
+}
+
+textarea,
+textarea:focus {
+    resize: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #dadada;
+    background-color: transparent;
+    text-align: center;
+    font-family: poppins;
+    line-height: 10px;
+    font-size: 24px;
+}
+
+textarea::placeholder {
+    font-family: poppins;
+    text-align: center;
+    font-size: 24px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+    text-align: center;
+    /* padding: 150px 0px; */
+}
+
+.button {
+    background-color: #FF5959;
+    padding: 15px 25px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.section-heading-wrapper {
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* This are the common styles finished */
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.925)), url('../images/donation6.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+#header-wrapper,
+#donation-amount {
+    padding: 150px 0px;
+}
+
+#header-wrapper>h1 {
+    font-size: 65px;
+    line-height: 30px;
+}
+
+#header-wrapper>p {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 100;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 20px;
+}
+
+.section-heading-wrapper>h1 {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.section-heading-wrapper>p {
+    font-weight: 100;
+    font-size: 18px;
+    color: #707070;
+}
+
+#donation-form-wrapper {
+    width: 100%;
+    padding: 10px 0px;
+}
+
+#other-donation-textarea {
+    width: 100%;
+    padding: 20px;
+    margin: 20px 0px;
+
+}
+
+.donation {
+    background-color: #fafafa;
+    font-size: 30px;
+    color: #707070;
+    padding: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* This styles are used to change the checked input radio buttons style values. */
+#donate-amount-100:checked:checked~.donation-100,
+#donate-amount-200:checked:checked~.donation-200,
+#donate-amount-300:checked:checked~.donation-300,
+#donate-amount-500:checked:checked~.donation-500,
+#donate-amount-1000:checked:checked~.donation-1000 {
+    border: 2px solid #FF5959;
+    background-color: #FFEEEE;
+    color: #FF5959;
+}
+
+#donation-plan-card-wrapper {
+    width: 100%;
+}
+
+.card {
+    width: 25%;
+    display: inline-block;
+    padding: 40px 20px;
+    margin: 10px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+#card-1 {
+    background-color: #4f9da628;
+}
+
+#card-2 {
+    background-color: #ff595928;
+}
+
+#card-3 {
+    background-color: #FFF4D6;
+
+}
+
+#card-3>img {
+    width: 52px;
+    height: 52px;
+}
+
+#volunteer-wrapper {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    padding: 150px 0px;
+
+}
+
+#volunteer-image>img {
+    width: 100%;
+    height: auto;
+}
+
+#volunteer-join {
+    padding: 10px;
+}
+
+#volunteer-join>h1 {
+    font-size: 36px;
+}
+
+#subscriber-form {
+    background-color: #FFF4D6;
+    width: 70%;
+    display: flex;
+    margin: 50px auto;
+    padding: 50px;
+
+}
+
+#subscriber-form>input {
+    width: 100%;
+    height: 20px;
+    padding: 15px 25px;
+    background-color: #d9d9d9;
+    outline: none;
+    border: none;
+}
+
+#subscriber-form>button {
+    border-radius: 0px 5px 5px 0px;
+}
+
+footer {
+    width: auto;
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+    font-family: 'Lobster', cursive;
+}
+
+footer>h2 {
+    color: #FF5959
+}
+
+footer>p {
+    color: #707070;
+    font-family: poppins;
+}
+
+/* Style sheet finished */
